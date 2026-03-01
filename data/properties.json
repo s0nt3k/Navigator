@@ -1,0 +1,10 @@
+{
+  "StartupMenu": "Menu",
+  "StartupDelayMs": 4500,
+  "ShowStartupSplash": false,
+  "StartupSplashMs": 4000,
+  "StartupScriptDelay": "Disabled",
+  "ShowTerminationSplash": false,
+  "TerminationSplashMs": 5000,
+  "TerminateActiveProcess": true
+}

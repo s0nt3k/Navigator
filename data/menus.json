@@ -1,0 +1,287 @@
+{
+  "menus": [
+    {
+      "id": "main",
+      "title": "CybtekSTK SysOp Navigator Menu",
+      "columns": 2,
+      "onLoad": "",
+      "options": [
+        {
+          "key": "1",
+          "label": "Customer Account & Service Settings",
+          "column": "left",
+          "type": "menu",
+          "target": "customer-account",
+          "window": "current"
+        },
+        {
+          "key": "2",
+          "label": "System Administration & Management",
+          "column": "left",
+          "type": "menu",
+          "target": "system-admin",
+          "window": "current"
+        },
+        {
+          "key": "3",
+          "label": "Windows Settings & Configurations",
+          "column": "left",
+          "type": "menu",
+          "target": "windows-settings",
+          "window": "current"
+        },
+        {
+          "key": "4",
+          "label": "Information Security & Privacy",
+          "column": "left",
+          "type": "menu",
+          "target": "info-security",
+          "window": "current"
+        },
+        {
+          "key": "A",
+          "label": "Software Package & Module Management",
+          "column": "right",
+          "type": "menu",
+          "target": "software-mgmt",
+          "window": "current"
+        },
+        {
+          "key": "B",
+          "label": "Miscellaneous Tools & Utilities",
+          "column": "right",
+          "type": "menu",
+          "target": "misc-tools",
+          "window": "current"
+        },
+        {
+          "key": "C",
+          "label": "CybtekSTK SysOp Navigator Settings",
+          "column": "right",
+          "type": "menu",
+          "target": "settings",
+          "window": "current"
+        },
+        {
+          "key": "D",
+          "label": "Diagnostics & Troubleshooting Menu",
+          "column": "right",
+          "type": "menu",
+          "target": "diagnostics",
+          "window": "current"
+        }
+      ]
+    },
+    {
+      "id": "settings",
+      "title": "CybtekSTK SysOp Navigator Settings",
+      "columns": 2,
+      "onLoad": "",
+      "options": [
+        {
+          "key": "1",
+          "label": "Manage Navigation Menus",
+          "column": "left",
+          "type": "menu",
+          "target": "_manage-menus",
+          "window": "current"
+        },
+        {
+          "key": "2",
+          "label": "Manage Menu Options",
+          "column": "left",
+          "type": "menu",
+          "target": "_manage-options",
+          "window": "current"
+        },
+        {
+          "key": "3",
+          "label": "Manage Colors and Styling",
+          "column": "left",
+          "type": "menu",
+          "target": "_colors-styling",
+          "window": "current"
+        },
+        {
+          "key": "4",
+          "label": "File & Folder Path Management",
+          "column": "left",
+          "type": "menu",
+          "target": "_file-paths",
+          "window": "current"
+        },
+        {
+          "key": "A",
+          "label": "Termination & Startup Settings",
+          "column": "right",
+          "type": "menu",
+          "target": "_termination-startup",
+          "window": "current"
+        },
+        {
+          "key": "B",
+          "label": "Navigator Property Settings",
+          "column": "right",
+          "type": "run",
+          "target": "",
+          "window": "current"
+        },
+        {
+          "key": "C",
+          "label": "Configure Database Connection",
+          "column": "right",
+          "type": "function",
+          "target": "Show-DatabaseConfig",
+          "window": "current"
+        }
+      ]
+    },
+    {
+      "id": "customer-account",
+      "title": "Customer Account & Service Settings",
+      "columns": 1,
+      "onLoad": "",
+      "options": [
+        {
+          "key": "1",
+          "label": "Enable Technical Service Mode",
+          "column": "left",
+          "type": "function",
+          "target": "Invoke-EnableServiceMode",
+          "window": "current"
+        }
+      ]
+    },
+    {
+      "id": "system-admin",
+      "title": "System Administration & Management",
+      "columns": 1,
+      "onLoad": "",
+      "options": []
+    },
+    {
+      "id": "windows-settings",
+      "title": "Windows Settings & Configurations",
+      "columns": 2,
+      "onLoad": "",
+      "options": [
+        {
+          "key": "1",
+          "label": "Windows Update Settings",
+          "column": "left",
+          "type": "run",
+          "target": "ms-settings:windowsupdate",
+          "window": "current"
+        },
+        {
+          "key": "2",
+          "label": "Privacy & Security Settings",
+          "column": "left",
+          "type": "run",
+          "target": "ms-settings:privacy",
+          "window": "current"
+        },
+        {
+          "key": "3",
+          "label": "Windows System Settings",
+          "column": "left",
+          "type": "run",
+          "target": "ms-settings:about",
+          "window": "current"
+        },
+        {
+          "key": "4",
+          "label": "Network & Internet Settings",
+          "column": "left",
+          "type": "run",
+          "target": "ms-settings:network",
+          "window": "current"
+        },
+        {
+          "key": "5",
+          "label": "User Accounts Settings",
+          "column": "left",
+          "type": "run",
+          "target": "ms-settings:accounts",
+          "window": "current"
+        },
+        {
+          "key": "6",
+          "label": "Personalization Settings",
+          "column": "left",
+          "type": "run",
+          "target": "ms-settings:personalization",
+          "window": "current"
+        },
+        {
+          "key": "7",
+          "label": "Application Settings",
+          "column": "left",
+          "type": "run",
+          "target": "ms-settings:appsfeatures",
+          "window": "current"
+        },
+        {
+          "key": "8",
+          "label": "Bluetooth & Devices Settings",
+          "column": "left",
+          "type": "run",
+          "target": "ms-settings:bluetooth",
+          "window": "current"
+        },
+        {
+          "key": "A",
+          "label": "Enable Service Mode Settings",
+          "column": "right",
+          "type": "menu",
+          "target": "_enable-service-mode",
+          "window": "current"
+        },
+        {
+          "key": "B",
+          "label": "Disable Service Mode Settings",
+          "column": "right",
+          "type": "menu",
+          "target": "_disable-service-mode",
+          "window": "current"
+        },
+        {
+          "key": "C",
+          "label": "Scheduled Automation Settings",
+          "column": "right",
+          "type": "run",
+          "target": "",
+          "window": "current"
+        }
+      ]
+    },
+    {
+      "id": "info-security",
+      "title": "Information Security & Privacy",
+      "columns": 1,
+      "onLoad": "",
+      "options": []
+    },
+    {
+      "id": "software-mgmt",
+      "title": "Software Package & Module Management",
+      "columns": 1,
+      "onLoad": "",
+      "options": []
+    },
+    {
+      "id": "misc-tools",
+      "title": "Miscellaneous Tools & Utilities",
+      "columns": 1,
+      "onLoad": "",
+      "options": []
+    },
+    {
+      "id": "diagnostics",
+      "title": "Diagnostics & Troubleshooting Menu",
+      "columns": 1,
+      "onLoad": "",
+      "options": []
+    }
+  ]
+}

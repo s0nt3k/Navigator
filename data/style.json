@@ -1,0 +1,22 @@
+{
+  "colors": {
+    "BorderColor": "Cyan",
+    "BracketHyphenColor": "DarkGray",
+    "TriggerKeyColor": "Cyan",
+    "MenuOptionText": "DarkYellow",
+    "MenuTitleText": "Yellow",
+    "LiveTimestamp": "White",
+    "ConfigValue": "Red",
+    "FooterHint": "DarkYellow",
+    "StatusMessage": "Green"
+  },
+  "layout": {
+    "BorderVerticalMargin": 0,
+    "BorderHorizontalMargin": 0,
+    "BorderPadding": 2,
+    "HighlightBackground": "DarkBlue",
+    "HighlightForeground": "White",
+    "ServiceModeBorder": "Green"
+  },
+  "hexColors": {}
+}
