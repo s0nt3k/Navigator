@@ -2,7 +2,7 @@
 .SYNOPSIS
     CybtekSTK SysOp Navigator - Windows Console Navigation System
 .VERSION
-    3.0.0
+    3.0.2
 .DESCRIPTION
     External config files:
       menus.json  - all menu definitions, options, columns, on-load cmdlets
